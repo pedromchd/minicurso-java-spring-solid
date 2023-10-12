@@ -1,4 +1,4 @@
-package br.edu.ifrs.minicurso.springsolidapi.service.exceptions;
+package br.edu.ifrs.minicurso.springsolidapi.services.exceptions;
 
 public class NotFoundException extends RuntimeException {
 

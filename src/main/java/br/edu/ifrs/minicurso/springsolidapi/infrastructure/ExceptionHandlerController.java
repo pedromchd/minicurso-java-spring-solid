@@ -1,7 +1,7 @@
 package br.edu.ifrs.minicurso.springsolidapi.infrastructure;
 
-import br.edu.ifrs.minicurso.springsolidapi.dto.ExceptionDTO;
-import br.edu.ifrs.minicurso.springsolidapi.service.exceptions.NotFoundException;
+import br.edu.ifrs.minicurso.springsolidapi.dtos.ExceptionDTO;
+import br.edu.ifrs.minicurso.springsolidapi.services.exceptions.NotFoundException;
 
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
