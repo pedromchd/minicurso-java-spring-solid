@@ -37,6 +37,7 @@ public class Turma {
 
     @ManyToOne
     @JoinColumn(name = "disciplina_id")
+    @JsonIgnoreProperties("turmas")
     private Disciplina disciplina;
 
     @ManyToMany
